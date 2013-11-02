@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	border: 0;
+	color: white;
+	font-family: raleway;
+}
+#topNav {
+	background-color: #2D2D2D;
+	padding: 10px;
+}
+#logo {
+	background: url(../img/swdlogo.jpg);
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	margin: 20px;
+}
+#topNav h1 {
+	font-family: raleway;
+	font-size: 2em;
+	color: white;
+	position: relative;
+	left: 145px;
+	bottom: 85px;
+	height: 0px;
+}
+.nav:link {
+	text-decoration: none;
+	color: white;
+	font-family: raleway;
+	float: right;
+	font-size: 1.25em;
+	margin: 20px;
+	position: relative;
+	bottom: 100px;
+}
+.nav b:hover {
+	color:#FFBE00;
+}
+#banner {
+	background: url(../img/petillo.jpg);
+	height: 544px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no repeat;
+}
+#banner p {
+	font-size: 3em;
+	font-weight: bold;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 40%;
+}
+.envelope {
+	max-width: 1024px;
+	margin: 0 auto;
+	height: 1320px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	background-color: #bdc3c7;
+}
+.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 435px;
+}
+.content h1 {
+	font-size: 2em;
+	text-align: center;	
+	padding: 20px 20px 0 20px;
+}
+.schoolTitle {
+	height: 120px;
+}
+.schoolHeader {
+	text-align: center;
+	font-size: 3em;
+	position: relative;
+	top: 30px;
+	margin: 5px;
+}
+#schools a {
+	text-decoration: none;
+}
+#shu {
+	background: url(../img/shu.png);
+	background-size: contain;
+	border-radius: 24px;
+}
+#fsu {
+	background: url(../img/fsu.png);
+	background-size: contain;
+	border-radius: 24px;
+}
+#hes {
+	background: url(../img/hes.png);
+	background-size: contain;
+	border-radius: 24px;
+}
+#shu:hover {
+	background: url(../img/trans_shu.png);
+	background-size: contain;
+	color: red;
+}
+#shu:hover h2 {
+	color: #990000;
+}
+#fsu:hover h2 {
+	color: #FABC30;
+}
+#hes:hover h2 {
+	color: #A41034;
+}
+#fsu:hover {
+	background: url(../img/trans_fsu.png);
+	background-size: contain;
+}
+#hes:hover {
+	background: url(../img/trans_hes.png);
+	background-size: contain;
+	color: red;
+}
+#blogs td {
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+#blogs td img {
+	width: 202px;
+	border-radius: 110px;
+	border: 10px solid white;
+}
+.moonshot:hover li {
+	border-color: #2c3e50
+	color: #2c3e50;
+	text-decoration: none;
+	color: #2c3e50;
+}
+.qsswd:hover {
+	border-color: #2c3e50
+	color: #2c3e50;
+	text-decoration: none;
+	color: #2c3e50;
+}
+.swdowd:hover {
+	border-color: #2c3e50
+	color: #2c3e50;
+	text-decoration: none;
+	color: #2c3e50;
+}
+.syv:hover {
+	border-color: #2c3e50
+	color: #2c3e50;
+	text-decoration: none;
+	color: #2c3e50;
+}
+.blogTitle p {
+	text-align: center;
+	font-size: 1.25em;
+	padding-top: 15px;
+}
+.blogDesc td a:link {
+	text-decoration: none;
+}
+.blogDesc p{
+	text-align: center;
+	margin-top: 10px;
+}
+#footer {
+	height: 50px;
+	margin: 15 auto;
+	max-width: 1024px;
+}
+#footer p {
+	position: relative;
+	top: 10%;
+	text-align: center;	
+}
