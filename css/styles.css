@@ -75,7 +75,7 @@
 .envelope {
 	max-width: 1024px;
 	margin: 0 auto;
-	height: 1360px;
+	height: 1405px;
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 	background-color: #bdc3c7;
@@ -83,7 +83,7 @@
 .content {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	height: 435px;
+	height: 450px;
 }
 .content h1 {
 	font-size: 2em;
@@ -121,7 +121,6 @@
 	background: url(../img/hes.png);
 	background-size: cover;
 }
-
 #shu:hover h2 {
 	color: #990000;
 }
@@ -207,4 +206,61 @@ ul {
 	position: relative;
 	top: 10%;
 	text-align: center;	
+}
+@media (max-width: 1020px) {
+	#navLinks {
+		padding: 0;
+		position: relative;
+		top: 45px;
+	}
+	#nav li {
+		float: right;
+	}
+	#quote {
+		max-width: 500px;
+		margin: 0 auto;
+		font-size: 1em;
+	}
+	.schoolHeader {
+		font-size: 2em;
+		position: relative;
+		top: 45px;
+	}
+	.top-half,.bottom-half {
+		display: block;
+		max-width: 500px;
+		margin: 10px auto;
+	}
+	.content div ul {
+		margin: 10px 0 10px 0;
+	}	
+	.envelope {
+		height: 1600px;
+	}
+	#blogs {
+		height: 650px;
+	}
+}
+@media (max-width: 790px) {
+	#logo {
+		float: none;
+		margin: 0 auto;
+	}
+	#name {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#navLinks {
+		max-width: 450px;
+		margin: 0 auto;
+		right: 100px;
+		top: 0;
+	}
+	#nav li {
+		float: left;
+	}
+	#quote {
+		top: 20px;
+	}
 }
