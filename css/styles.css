@@ -4,6 +4,9 @@
 	color: white;
 	font-family: raleway;
 }
+#banner {
+	padding: 20px;
+}
 #topNav {
 	background-color: #2D2D2D;
 	padding: 10px;
@@ -13,29 +16,46 @@
 	height: 100px;
 	width: 100px;
 	background-size: cover;
-	margin: 20px;
+	margin: 0 20px;
+	float: left;
 }
-#topNav h1 {
-	font-family: raleway;
-	font-size: 2em;
-	color: white;
-	position: relative;
-	left: 145px;
-	bottom: 85px;
-	height: 0px;
+#name {
+	float: left;
+	padding: 35px 0 35px 0;
 }
-.nav:link {
-	text-decoration: none;
-	color: white;
-	font-family: raleway;
-	float: right;
+
+#quote {
 	font-size: 1.25em;
-	margin: 20px;
+	color: white;
+	max-width: 600px;
+	margin: 0 auto;
 	position: relative;
-	bottom: 100px;
+	top: 100px;
 }
-.nav b:hover {
-	color:#FFBE00;
+#navLinks {
+	float: right;
+	padding: 30px;
+}
+#nav li {
+	float: left;
+	padding: 5px 15px;   
+	font-weight: bold;  
+	font-size: 1.25em;
+	color: #FFFFFF;
+	list-style: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;   
+	-moz-transition: all 0.3s ease-in-out;   
+	-o-transition: all 0.3s ease-in-out;   
+	transition: all 0.3s ease-in-out;
+	margin: 0 20px 0 20px;
+}
+#nav li a {
+	text-decoration: none;
+}
+#nav li:hover {
+	background: rgba(255, 255, 255, 0.35);
 }
 #banner {
 	background: url(../img/petillo.jpg);
@@ -43,21 +63,19 @@
 	width: 100%;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
 }
 #banner p {
 	font-size: 3em;
 	font-weight: bold;
-	max-width: 900px;
+	max-width: 550px;
 	margin: 0 auto;
 	text-align: center;
-	position: relative;
-	top: 40%;
 }
 .envelope {
 	max-width: 1024px;
 	margin: 0 auto;
-	height: 1320px;
+	height: 1360px;
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 	background-color: #bdc3c7;
@@ -74,6 +92,12 @@
 }
 .schoolTitle {
 	height: 120px;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 60px;
+	  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 .schoolHeader {
 	text-align: center;
@@ -87,24 +111,17 @@
 }
 #shu {
 	background: url(../img/shu.png);
-	background-size: contain;
-	border-radius: 24px;
+	background-size: cover;
 }
 #fsu {
 	background: url(../img/fsu.png);
-	background-size: contain;
-	border-radius: 24px;
+	background-size: cover;
 }
 #hes {
 	background: url(../img/hes.png);
-	background-size: contain;
-	border-radius: 24px;
+	background-size: cover;
 }
-#shu:hover {
-	background: url(../img/trans_shu.png);
-	background-size: contain;
-	color: red;
-}
+
 #shu:hover h2 {
 	color: #990000;
 }
@@ -114,47 +131,59 @@
 #hes:hover h2 {
 	color: #A41034;
 }
+#shu:hover {
+	background: url(../img/trans_shu.png);
+	background-size: cover;
+	color: red;
+}
 #fsu:hover {
 	background: url(../img/trans_fsu.png);
-	background-size: contain;
+	background-size: cover;
 }
 #hes:hover {
 	background: url(../img/trans_hes.png);
-	background-size: contain;
+	background-size: cover;
 	color: red;
 }
-#blogs td {
-	padding-right: 16px;
-	padding-left: 16px;
+#blogs li {
+	list-style: none;
+	width: 240px;
+	text-align: center;
 }
-
-#blogs td img {
-	width: 202px;
-	border-radius: 110px;
+#blogs a div {
+	display: inline;
+	float: left;
+	max-width: 240px;
+	margin: 0 auto;
+}
+#blogs .cont a ul li img {
+	width: 140px;
+	border-radius: 128px;
 	border: 10px solid white;
 }
-.moonshot:hover li {
-	border-color: #2c3e50
-	color: #2c3e50;
-	text-decoration: none;
-	color: #2c3e50;
+ul {
+	padding: 0;
+	margin: 0;
 }
-.qsswd:hover {
-	border-color: #2c3e50
-	color: #2c3e50;
-	text-decoration: none;
-	color: #2c3e50;
+.cont {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
 }
-.swdowd:hover {
-	border-color: #2c3e50
-	color: #2c3e50;
-	text-decoration: none;
-	color: #2c3e50;
-}
-.syv:hover {
-	border-color: #2c3e50
-	color: #2c3e50;
-	text-decoration: none;
+#blogs a .moonshot:hover ul li img,
+#blogs a .moonshot:hover ul li em,
+#blogs a .moonshot:hover ul li b,
+#blogs a .swdowd:hover ul li img,
+#blogs a .swdowd:hover ul li em,
+#blogs a .swdowd:hover ul li b, 
+#blogs a .syv:hover ul li img,
+#blogs a .syv:hover ul li em,
+#blogs a .syv:hover ul li b,
+#blogs a .qsswd:hover ul li img,
+#blogs a .qsswd:hover ul li em,
+#blogs a .qsswd:hover ul li b {
+	border-color: #2c3e50;
 	color: #2c3e50;
 }
 .blogTitle p {
