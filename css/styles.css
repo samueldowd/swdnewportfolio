@@ -23,15 +23,6 @@
 	float: left;
 	padding: 35px 0 35px 0;
 }
-
-#quote {
-	font-size: 1.25em;
-	color: white;
-	max-width: 600px;
-	margin: 0 auto;
-	position: relative;
-	top: 100px;
-}
 #navLinks {
 	float: right;
 	padding: 30px;
@@ -65,12 +56,22 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+#quote {
+	color: white;
+	max-width: 600px;
+	margin: 10px auto;
+}
 #banner p {
 	font-size: 3em;
 	font-weight: bold;
 	max-width: 550px;
 	margin: 0 auto;
 	text-align: center;
+	position: absolute;
+	top: 150px;
+	text-shadow: 1px 1px #666;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 12px;
 }
 .envelope {
 	max-width: 1024px;
@@ -86,63 +87,57 @@
 	height: 450px;
 }
 .content h1 {
-	font-size: 2em;
+	font-size: 2.25em;
 	text-align: center;	
 	padding: 20px 20px 0 20px;
+	text-shadow: 2px 2px #666;
 }
-.schoolTitle {
-	height: 120px;
+.schoolHeader {
+	height: 90px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 5px auto;
 	border-radius: 60px;
 	  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
 	  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-}
-.schoolHeader {
-	text-align: center;
+		text-align: center;
 	font-size: 3em;
 	position: relative;
-	top: 30px;
-	margin: 5px;
+	top: 10px;
+	padding-top: 30px;
 }
 #schools a {
 	text-decoration: none;
 }
-#shu {
+#sacred {
 	background: url(../img/shu.png);
 	background-size: cover;
 }
-#fsu {
+#fram {
 	background: url(../img/fsu.png);
 	background-size: cover;
 }
-#hes {
+#ext {
 	background: url(../img/hes.png);
 	background-size: cover;
 }
-#shu:hover h2 {
+#sacred:hover {
 	color: #990000;
-}
-#fsu:hover h2 {
-	color: #FABC30;
-}
-#hes:hover h2 {
-	color: #A41034;
-}
-#shu:hover {
 	background: url(../img/trans_shu.png);
 	background-size: cover;
-	color: red;
+	text-shadow: 1px 1px #666;
 }
-#fsu:hover {
+#fram:hover {
+	color: #FABC30;
 	background: url(../img/trans_fsu.png);
 	background-size: cover;
+	text-shadow: 1px 1px #666;
 }
-#hes:hover {
+#ext:hover {
+	color: #A41034;
 	background: url(../img/trans_hes.png);
 	background-size: cover;
-	color: red;
+	text-shadow: 1px 1px #666;
 }
 #blogs li {
 	list-style: none;
@@ -199,7 +194,7 @@ ul {
 }
 #footer {
 	height: 50px;
-	margin: 15 auto;
+	margin: 15px auto;
 	max-width: 1024px;
 }
 #footer p {
