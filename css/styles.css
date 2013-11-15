@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	border: 0;
-	color: white;
 	font-family: raleway;
 }
 #banner {
@@ -201,6 +200,35 @@ ul {
 	top: 10%;
 	text-align: center;	
 }
+
+/*Styling for School Page*/
+#tabs {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.assignment {
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+	margin: 10px;
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.assignment:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+.assignment h3 {
+	text-align: center;
+	color: black;
+	position: relative;
+	top: 5px;
+}
+#tabs-1 {
+	color: black;
+}
+
 @media (max-width: 1020px) {
 	#navLinks {
 		padding: 0;

@@ -7,6 +7,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "* {\n	margin: 0;\n	border: 0;\n	color: white;\n	font-family: raleway;\n}\n#banner {\n	padding: 20px;\n}\n#topNav {\n	background-color: #2D2D2D;\n	padding: 10px;\n}\n#logo {\n	background: url(../img/swdlogo.jpg);\n	height: 100px;\n	width: 100px;\n	background-size: cover;\n	margin: 0 20px;\n	float: left;\n}\n#name {\n	float: left;\n	padding: 35px 0 35px 0;\n}\n#navLinks {\n	float: right;\n	padding: 30px;\n}\n#nav li {\n	float: left;\n	padding: 5px 15px;   \n	font-weight: bold;  \n	font-size: 1.25em;\n	color: #FFFFFF;\n	list-style: none;\n	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);\n	border-radius: 10px;\n	-webkit-transition: all 0.3s ease-in-out;   \n	-moz-transition: all 0.3s ease-in-out;   \n	-o-transition: all 0.3s ease-in-out;   \n	transition: all 0.3s ease-in-out;\n	margin: 0 20px 0 20px;\n}\n#nav li a {\n	text-decoration: none;\n}\n#nav li:hover {\n	background: rgba(255, 255, 255, 0.35);\n}\n#banner {\n	background: url(../img/petillo.jpg);\n	height: 544px;\n	width: 100%;\n	background-size: cover;\n	background-position: center;\n	background-repeat: no-repeat;\n}\n#quote {\n	color: white;\n	max-width: 600px;\n	margin: 10px auto;\n}\n#banner p {\n	font-size: 3em;\n	font-weight: bold;\n	max-width: 550px;\n	margin: 0 auto;\n	text-align: center;\n	position: absolute;\n	top: 150px;\n	text-shadow: 1px 1px #666;\n	background: rgba(0, 0, 0, 0.6);\n	border-radius: 12px;\n}\n.envelope {\n	max-width: 1024px;\n	margin: 0 auto;\n	height: 1420px;\n	border: 1px solid black;\n	background-color: #bdc3c7;\n}\n.content {\n	border-top: 1px solid black;\n	border-bottom: 1px solid black;\n	height: 450px;\n}\n.content h1 {\n	font-size: 2.25em;\n	text-align: center;	\n	padding: 20px 20px 0 20px;\n	text-shadow: 2px 2px #666;\n}\n.schoolHeader {\n	height: 90px;\n	width: 90%;\n	margin: 5px auto;\n	border-radius: 60px;\n	  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   \n	  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);   \n	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);\n		text-align: center;\n	font-size: 3em;\n	position: relative;\n	top: 10px;\n	padding-top: 30px;\n}\n#schools a {\n	text-decoration: none;\n}\n#sacred {\n	background: url(../img/shu.png);\n	background-size: cover;\n}\n#fram {\n	background: url(../img/fsu.png);\n	background-size: cover;\n}\n#ext {\n	background: url(../img/hes.png);\n	background-size: cover;\n}\n#sacred:hover {\n	color: #990000;\n	background: url(../img/trans_shu.png);\n	background-size: cover;\n	text-shadow: 1px 1px #666;\n}\n#fram:hover {\n	color: #FABC30;\n	background: url(../img/trans_fsu.png);\n	background-size: cover;\n	text-shadow: 1px 1px #666;\n}\n#ext:hover {\n	color: #A41034;\n	background: url(../img/trans_hes.png);\n	background-size: cover;\n	text-shadow: 1px 1px #666;\n}\n#blogs li {\n	list-style: none;\n	width: 240px;\n	text-align: center;\n}\n#blogs a div {\n	display: inline;\n	float: left;\n	max-width: 240px;\n	margin: 0 auto;\n}\n#blogs .cont a ul li img {\n	width: 140px;\n	border-radius: 128px;\n	border: 10px solid white;\n}\nul {\n	padding: 0;\n	margin: 0;\n}\n.cont {\n	max-width: 960px;\n	margin: 0 auto;\n	position: relative;\n	top: 60px;\n}\n#blogs a .moonshot:hover ul li img,\n#blogs a .moonshot:hover ul li em,\n#blogs a .moonshot:hover ul li b,\n#blogs a .swdowd:hover ul li img,\n#blogs a .swdowd:hover ul li em,\n#blogs a .swdowd:hover ul li b, \n#blogs a .syv:hover ul li img,\n#blogs a .syv:hover ul li em,\n#blogs a .syv:hover ul li b,\n#blogs a .qsswd:hover ul li img,\n#blogs a .qsswd:hover ul li em,\n#blogs a .qsswd:hover ul li b {\n	border-color: #2c3e50;\n	color: #2c3e50;\n}\n.blogTitle p {\n	text-align: center;\n	font-size: 1.25em;\n	padding-top: 15px;\n}\n.blogDesc td a:link {\n	text-decoration: none;\n}\n.blogDesc p {\n	text-align: center;\n	margin-top: 10px;\n}\n#footer {\n	height: 50px;\n	margin: 15px auto;\n	max-width: 1024px;\n}\n#footer p {\n	position: relative;\n	top: 10%;\n	text-align: center;	\n}\n@media (max-width: 1020px) {\n	#navLinks {\n		padding: 0;\n		position: relative;\n		top: 45px;\n	}\n	#nav li {\n		float: right;\n	}\n	#quote {\n		max-width: 500px;\n		margin: 0 auto;\n		font-size: 1em;\n	}\n	.schoolHeader {\n		font-size: 2em;\n		position: relative;\n		top: 45px;\n	}\n	.top-half,.bottom-half {\n		display: block;\n		max-width: 500px;\n		margin: 10px auto;\n	}\n	.content div ul {\n		margin: 10px 0 10px 0;\n	}	\n	.envelope {\n		height: 1600px;\n	}\n	#blogs {\n		height: 650px;\n	}\n}\n@media (max-width: 790px) {\n	#logo {\n		float: none;\n		margin: 0 auto;\n	}\n	#name {\n		float: none;\n		margin: 0 auto;\n		text-align: center;\n	}\n	#navLinks {\n		max-width: 450px;\n		margin: 0 auto;\n		right: 100px;\n		top: 0;\n	}\n	#nav li {\n		float: left;\n	}\n	#quote {\n		top: 20px;\n	}\n}",
+			"file": "css/styles.css",
+			"file_size": 4454,
+			"file_write_time": 130287640780000000,
+			"settings":
+			{
+				"buffer_size": 4455,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -38,7 +57,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -52,6 +71,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -69,14 +89,77 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4385,
+								4385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1636.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3532,
+								3532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2854.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -91,11 +174,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -108,7 +198,7 @@
 	"project": "swdnewportfolio.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

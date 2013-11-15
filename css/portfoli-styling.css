@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body { 
+	height: 99%;
+}
+html, body, #pdf,object {
+	height: 93%;
+	width: 100%;
+}
+.iframe {
+	max-width: 540pt;
+	margin: 0 auto;
+	min-height: 99%;
+}
+.iframe iframe {
+	min-width: 540pt;
+	margin: 0 auto;
+}
+.iframe-embed {
+	margin: 0 auto;
+	max-width: 595px;
+}
+.assignmentIcon {
+	display: inline;
+	width: 20%;
+}
+.assignmentCard {
+	border: 1px;
+	border: solid #7f8c8d;
+	height: 150px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.assignmentDesc {
+	font-family: garamond;
+	font-size: 12px;
+}
+.assignmentHeader {
+	margin-top: -10px;
+	width: 75%;
+	float: right;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #bdc3c7;
+	color: black;
+}
+header {
+	border-bottom: 2px solid #7f8c8d;
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: #bdc3c7;
+}
+header h1 {
+	font-size: 72px;
+}
+header p {
+	font-style: italic;
+	margin-top: -10px;
+}
+.portHead h1, .portHead p {
+	margin: 0 auto 10px auto;
+	max-width: 960px;
+	text-align: center;
+}
+.siteHead {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.portHead img {
+	height: 124px;
+}
+#logo {
+	float: left;
+}
+#image {
+	float: right;
+}
+.breadcrumbs {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.breadcrumbs a:link {
+	text-decoration: underline;
+}
+section h1 {
+	font-size: 20px;
+}
+section h2 {
+	font-size: 18px;
+}
+section h5 {
+	font-size: 16px;
+}
+section article {
+	margin: 10px auto 10px auto;
+	max-width: 800px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	background-color: #bdc3c7;
+}
+.edStatement {
+	text-align: center;
+	font-size: 14px;
+}
+.instDesc,.courseDesc,.assignDesc {
+	text-align: left;
+	font-size: 14px;
+	padding: 10px;
+}
+.courseDescribe {
+	text-align: left;
+	font-size: 14px;	
+}
+.instCard,.courseCard,.assignCard {
+	border: 2px solid #7f8c8d;
+	min-height: 150px;
+	padding: 10px;
+}
+.instTitle,.courseTitle,.assignTitle {
+	text-align: left;
+	float: left;
+}
+.instDegree,.courseSemester {
+	text-align: right;
+	float: right;
+}
+.instDates {
+	text-align: left;
+	float: left;
+}
+.instCard div {
+	height: 75px;
+}
+.instGPA {
+	text-align: right;
+	float: right;
+}
+#instDescribe {
+	border-top: 1px solid #7f8c8d;
+	overflow: auto;
+}
+.instLogo {
+	width: 175px;
+	float: left;
+}
+.pageHeader,.courseDesc h2 {
+	font-size: 2em
+}
+.courseCard i {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.courseHeader,.assignHeader {
+	height: 35px;
+}
+.assignHeader,.assignDesc {
+	margin: 5px;
+}
+.assignCard i {
+	float: left;
+	margin: 40px 10px 40px 10px;
+}
+.assignCard,.courseCard,.instCard {
+	-moz-box-shadow: 5px 5px 5px #7f8c8d;
+	-webkit-box-shadow: 5px 5px 5px #7f8c8d;
+	box-shadow: 5px 5px 5px #7f8c8d;
+}
+.instCard {
+	padding: 5px;
+}
+.assignName {
+	text-align: center;
+	margin: 15px auto;
+}
+.headerText {
+	margin: 5px 0 5px 0;
+}
+.pageFooter p {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+.comments {
+	width: 960px;
+}
