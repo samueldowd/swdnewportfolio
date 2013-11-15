@@ -35,7 +35,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 5047,
+				"buffer_size": 5090,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,7 +159,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 445.0,
+						"translation.y": 533.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -176,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5047,
+						"buffer_size": 5090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1380,
-								1380
+								3824,
+								3824
 							]
 						],
 						"settings":
@@ -193,7 +193,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 920.0,
+						"translation.y": 4290.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
