@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"height",
+				"height"
+			],
+			[
+				"ass",
+				"ass-height"
+			],
+			[
+				"indent",
+				"indent-1-ac-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -19,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4669,
+				"buffer_size": 4761,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +43,26 @@
 			"file": "pages/Shu.html",
 			"settings":
 			{
-				"buffer_size": 4992,
+				"buffer_size": 8095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index2.html",
+			"settings":
+			{
+				"buffer_size": 4301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n		<meta charset=\"UTF-8\" />\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"> \n        <title>Accordion with CSS3</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> \n        <meta name=\"description\" content=\"Accordion with CSS3\" />\n        <meta name=\"keywords\" content=\"accordion, css3, sibling selector, radio buttons, input, pseudo class\" />\n        <meta name=\"author\" content=\"Codrops\" />\n        <link rel=\"shortcut icon\" href=\"../favicon.ico\"> \n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/demo.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />\n		<script type=\"text/javascript\" src=\"js/modernizr.custom.29473.js\"></script>\n    </head>\n    <body>\n        <div class=\"container\">\n			<section class=\"ac-container\">\n				<div>\n					<input id=\"ac-1\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-1\">About us</label>\n					<article class=\"ac-small\">\n						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.</p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-2\" name=\"accordion-1\" type=\"checkbox\" checked />\n					<label for=\"ac-2\">How we work</label>\n					<article class=\"ac-medium\">\n						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-3\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-3\">References</label>\n					<article class=\"ac-large\">\n						<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-4\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-4\">Contact us</label>\n					<article class=\"ac-large\">\n						<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>\n					</article>\n				</div>\n			</section>\n        </div>\n    </body>\n</html>",
+			"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index3.html",
+			"file_size": 4314,
+			"file_write_time": 129741846060000000,
+			"settings":
+			{
+				"buffer_size": 3237,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +70,23 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 5090,
+				"buffer_size": 4712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/accordions.css",
+			"settings":
+			{
+				"buffer_size": 1409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/schools.css",
+			"settings":
+			{
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		}
@@ -67,6 +118,9 @@
 	},
 	"file_history":
 	[
+		"/Users/samuel_dowd/Box Sync/Downloads/tinyaccordion/index.html",
+		"/Users/samuel_dowd/Documents/GitHub/swdnewportfolio/js/code1.js",
+		"/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/css/accordions.css"
 	],
 	"find":
 	{
@@ -84,6 +138,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"packed",
+			");",
+			"width",
+			"radio",
+			"height",
+			"checkbox",
+			"}\n",
+			"#banner",
 			"envelope",
 			"footer",
 			"img"
@@ -94,6 +156,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"checkbox",
+			"radio",
+			".banner"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -113,15 +178,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4669,
+						"buffer_size": 4761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1165,
-								685
+								2376,
+								2376
 							]
 						],
 						"settings":
@@ -130,7 +195,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 964.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -141,15 +206,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4992,
+						"buffer_size": 8095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2207,
-								2207
+								2296,
+								2296
 							]
 						],
 						"settings":
@@ -159,7 +224,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 533.0,
+						"translation.y": 1262.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								802,
+								3217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 381.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -167,24 +286,24 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5090,
+						"buffer_size": 4712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3824,
-								3824
+								3967,
+								3967
 							]
 						],
 						"settings":
@@ -193,7 +312,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4290.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/accordions.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								891,
+								891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/schools.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -242,7 +415,7 @@
 	"project": "swdnewportfolio.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":

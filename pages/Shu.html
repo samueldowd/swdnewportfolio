@@ -3,12 +3,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>jQuery UI Tabs - Vertical Tabs functionality</title>
+  <title>Sacred Heart University</title>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css" />
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/schools.css">
+  <link rel="stylesheet" href="../css/accordions.css">
   <script>
   $(function() {
     $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
@@ -25,63 +27,152 @@
   </style>
 </head>
 <body>
-  <section id="banner">
-    <a href="http://www.samueldowd.com">
-      <div id="logo"></div>
-      <div id="name">
-        <h1>Samuel W. Dowd</h1>
-      </div>
-    </a>
+  <section class="banner" id="shu-banpho">
+    <div class="transHead">  
+      <a href="http://www.samueldowd.com">
+        <img src="../img/swdlogo.jpg" id="logo">
+        <div id="name">
+          <h1>Samuel W. Dowd</h1>
+        </div>
+      </a>
     <div class="mobileNav">
         <div id="navLinks">
           <ul id="nav">
             <li>
-              <a href="#featured" class="nav"><b>Featured</b></a>
+              <a href="../index.html#featured" class="nav"><b>Featured</b></a>
             </li>
             <li>
-              <a href="#schools" class="nav"><b>Schools</b></a>
+              <a href="../index.html#schools" class="nav"><b>Schools</b></a>
             </li>
             <li>
-              <a href="#blogs" class="nav"><b>Blogs</b></a>
+              <a href="../index.html#blogs" class="nav"><b>Blogs</b></a>
             </li>
           </ul> 
         </div>
       </div>
-      <div class="schoolName">
-        <h1>
-          Sacred Heart University
-        </h1>
-      </div>
-   </section> 
+    </div>  
+    <div class="schoolHead">
+      <h1>
+        Sacred Heart University
+      </h1>
+      <h2>Fall 2007 - Spring 2011</h2>
+      <h2>GPA: 3.27</h2>
+    </div>
+  </section> 
+  <section id="accordion">
+    <ul class="acc" id="acc">
+      <li>
+        <h3>Fall 2007</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            <ul class="acc" id="nested">
+              <li>
+                <h3>Introduction to Media Studies</h3>
+                <div class="acc-section">
+                  <div class="acc-content">
+                    <p>Introduction to media technology, examining the impact of radio, television, newspapers, still photography, film and the computer on the human condition. Trains the student to be a perceptive consumer of contemporary mass media by exploring how each medium codifies reality. Readings, screenings, and written assignments required.<br><br>Assignments:</p>
+                    <ul>
+                      <li>
+                        <a class="assignment" href="#">Midterm Paper</a>
+                      </li>  
+                      <li>
+                        <a class="assignment" href="#">Final Paper</a>
+                      </li>
+                    </ul>    
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Introduction to Information Literacy</h3>
+                <div class="acc-section">
+                  <div class="acc-content">
+                    This course, which meets once a week for ten weeks, acquaints the student with the process of finding, retrieving, organizing, evaluating, using, and distributing information in an ethical manner both in print and electronic formats. Focus is on gaining the necessary skills to conduct research effectively and efficiently as well as being able to properly evaluate and cite sources.<br><br>Assignments:
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Advanced French Film Studies</h3>
+                <div class="acc-section">
+                  <div class="acc-content">
+                    Study of particular film directors, movements (Poetic Realism, New Wave), periods, and genres.<br><br>Assignments:
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li><li>
+        <h3>Spring 2008</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            To initialize an accordion use the following code:<br /><br />
+            <code>
+              var accordion=new TINY.accordion.slider(&quot;accordion&quot;);<br />
+              accordion.init(&quot;accordion&quot;,&quot;h3&quot;,false,0,&quot;selected&quot;);
+            </code><br /><br />
+            You must create a new accordion object before initialization. The parameter taken by accordion.slider is the variable name used for the object. The object.init function takes 5 parameters: the id of the accordion “ul”, the header element tag, whether the panels should be expandable independently (optional), the index of the initially expanded section (optional) and the class for the active header (optional).
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Fall 2008</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Spring 2009</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Fall 2009</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Spring 2010</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Fall 2010</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3>Spring 2011</h3>
+        <div class="acc-section">
+          <div class="acc-content">
+            This script is provided as-is with no warranty or guarantee. It is available at no cost for any project, non-commercial or commercial. Paid support is available by <a href="http://www.leigeber.com/contact/">clicking here</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript">
 
-<div id="tabs">
-  <ul>
-    <li><a href="#tabs-1">Fall 2012</a></li>
-    <li><a href="#tabs-2">January 2013</a></li>
-    <li><a href="#tabs-3">Spring 2013</a></li>
-    <li><a href="#tabs-4">Fall 2013</a></li>
-  </ul>
-  <div id="tabs-1">
-    <h2>Fall 2012</h2>
-    <p>
-      <iframe src="shu-fall2012.html" width="100%" height="100%"></iframe>
-    </p>
-  </div>
-  <div id="tabs-2">
-    <h2>January 2013</h2>
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-  <div id="tabs-3">
-    <h2>Spring 2013</h2>
-    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-  </div>
-  <div id="tabs-4">
-    <h2>Fall 2013</h2>
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-</div>
- 
- 
+    var parentAccordion=new TINY.accordion.slider("parentAccordion");
+    parentAccordion.init("acc","h3",0,0);
+
+    var nestedAccordion=new TINY.accordion.slider("nestedAccordion");
+    nestedAccordion.init("nested","h3",1,-1,"acc-selected");
+
+    </script>
+  </section>
 </body>
 </html>
