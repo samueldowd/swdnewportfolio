@@ -95,15 +95,12 @@ h1 {
 	color: white;
 }
 .envelope {
-	max-width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 	height: 1355px;
-	border: 1px solid black;
 	border-top: 0;
-	background-color: #bdc3c7;
 }
 .content {
-	border-bottom: 1px solid black;
 	height: 450px;
 }
 .content h1 {
@@ -112,6 +109,81 @@ h1 {
 	padding: 20px 20px 0 20px;
 	text-shadow: 2px 2px #666;
 }
+#featured {
+	background-color: #666;
+}
+#schools {
+	background-color: #777;
+	width: 100%;
+	margin: 0 auto;
+}
+.schoolBlock {
+	float: left;
+	height: 348px;
+	width: 33.333333%;
+	list-style-type: none;
+	padding: 20px 0 20px 0;
+}
+.titlePos {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.schoolBlock a {
+	text-decoration: none;
+}
+.schoolBlock a h2 {
+	position: absolute;
+	bottom: 1%;
+	width: 100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+	font-size: 2em;
+}
+#sacred {
+	background: url(../img/shu.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+#fram {
+	background: url(../img/fsu.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+#ext {
+	background: url(../img/hes.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+#sacred:hover {
+	background: url(../img/trans_shu.png);
+	background-size: cover;
+	background-position: center bottom;
+}
+#sacred:hover h2 {
+	color: #990000;
+	text-shadow: 1px 1px #666;
+}
+#fram:hover {
+	background: url(../img/trans_fsu.png);
+	background-size: cover;
+	background-position: center bottom;
+}
+#fram:hover h2 {
+	color: #FABC30;
+	text-shadow: 1px 1px #666;
+}
+#ext:hover {
+	background: url(../img/trans_hes.png);
+	background-size: cover;
+	background-position: center bottom;
+}
+#ext:hover h2 {
+	color: #A41034;
+	text-shadow: 1px 1px #666;
+}
+
+/*
 .schoolHeader {
 	height: 90px;
 	width: 90%;
@@ -162,49 +234,113 @@ h1 {
 	background-size: cover;
 	text-shadow: 1px 1px #666;
 }
+*/
 #blogs {
-	border-bottom: 0;
+	background-color: #888;
+}
+#blogs ul {
+	height: 100%;
 }
 #blogs li {
 	list-style: none;
-	width: 240px;
+	width: 75%;
+	margin: 0 auto;
 	text-align: center;
+	position: relative;
+	height: 50%
 }
 #blogs a div {
 	display: inline;
 	float: left;
-	max-width: 240px;
-	margin: 0 auto;
 }
-#blogs .cont a ul li img {
-	width: 140px;
-	border-radius: 128px;
-	border: 10px solid white;
+.blogText {
+	height: 370px;
+	width: 25%;
+}
+#qsswd {
+	background-image: url(../img/qs.jpeg);
+	background-size: cover;
+	background-position: center center;	
+}
+#moonshot {
+	background-image: url(../img/moonshot.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#swdowd {
+	background-image: url(../img/swdowd.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#syv {
+	background-image: url(../img/esgirls.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.blogDesc {
+	background-color: rgba(0, 0, 0, 0.6);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;   
+	-moz-transition: all 0.3s ease-in-out;   
+	-o-transition: all 0.3s ease-in-out;   
+	transition: all 0.3s ease-in-out;
+	margin: 0 20px 0 20px;
+	height: 35%;
+	position: relative;
+	top: 40%;
+	right: -25%;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.25em;
+}
+.blogDesc em {
+	text-align: center;
+	position: relative;
+	top: 20%;
+}
+.titlePos2 {
+	height: 100%;
+	width: 100%;
+}
+.titlePos2 h2 {
+	font-size: 2em;
+	width: 100%;
+	position: relative;
+	bottom: -50%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 ul {
 	padding: 0;
 	margin: 0;
 }
 .cont {
-	max-width: 960px;
-	margin: 0 auto;
+	width: 100%;
 	position: relative;
-	top: 60px;
+	top: 20px;
+	height: 420px;
 }
-#blogs a .moonshot:hover ul li img,
-#blogs a .moonshot:hover ul li em,
-#blogs a .moonshot:hover ul li b,
-#blogs a .swdowd:hover ul li img,
-#blogs a .swdowd:hover ul li em,
-#blogs a .swdowd:hover ul li b, 
-#blogs a .syv:hover ul li img,
-#blogs a .syv:hover ul li em,
-#blogs a .syv:hover ul li b,
-#blogs a .qsswd:hover ul li img,
-#blogs a .qsswd:hover ul li em,
-#blogs a .qsswd:hover ul li b {
-	border-color: #2c3e50;
-	color: #2c3e50;
+#moonshot:hover {
+	background: url(../img/trans_moonshot.png);
+	background-size: cover;
+	background-position: center center;
+}
+#qsswd:hover {
+	background: url(../img/trans_qs.png);
+	background-size: cover;
+	background-position: center center;
+}
+#swdowd:hover {
+	background: url(../img/trans_swdowd.png);
+	background-size: cover;	
+	background-position: center center;
+}
+#syv:hover {
+	background: url(../img/trans_esgirls.png);
+	background-size: cover;
+	background-position: center center;
 }
 #footer {
 	height: 50px;
@@ -219,8 +355,8 @@ ul {
 #footer p a:link,#footer p a:visited {
 	color: rgba(0, 0, 0, 1.0);
 }
-
-@media (max-width: 1020px) {
+/*
+@media (max-width: 1600px) {
 	#navLinks {
 		padding: 0;
 		position: relative;
@@ -239,10 +375,13 @@ ul {
 		position: relative;
 		top: 45px;
 	}
+	.content {
+		height: 800px;
+	}
 	.top-half,.bottom-half {
 		display: block;
-		max-width: 500px;
-		margin: 10px auto;
+		max-width: 700px;
+		margin: auto;
 	}
 	.content div ul {
 		margin: 10px 0 10px 0;
@@ -276,4 +415,5 @@ ul {
 	#quote {
 		top: 20px;
 	}
+	*/
 }
