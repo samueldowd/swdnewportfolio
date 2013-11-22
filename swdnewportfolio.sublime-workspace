@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
 				"back",
 				"background-position"
 			],
@@ -80,10 +88,7 @@
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n		<meta charset=\"UTF-8\" />\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"> \n        <title>Accordion with CSS3</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> \n        <meta name=\"description\" content=\"Accordion with CSS3\" />\n        <meta name=\"keywords\" content=\"accordion, css3, sibling selector, radio buttons, input, pseudo class\" />\n        <meta name=\"author\" content=\"Codrops\" />\n        <link rel=\"shortcut icon\" href=\"../favicon.ico\"> \n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/demo.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />\n		<script type=\"text/javascript\" src=\"js/modernizr.custom.29473.js\"></script>\n    </head>\n    <body>\n        <div class=\"container\">\n			<section class=\"ac-container\">\n				<div>\n					<input id=\"ac-1\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-1\">About us</label>\n					<article class=\"ac-small\">\n						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.</p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-2\" name=\"accordion-1\" type=\"checkbox\" checked />\n					<label for=\"ac-2\">How we work</label>\n					<article class=\"ac-medium\">\n						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-3\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-3\">References</label>\n					<article class=\"ac-large\">\n						<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>\n					</article>\n				</div>\n				<div>\n					<input id=\"ac-4\" name=\"accordion-1\" type=\"checkbox\" />\n					<label for=\"ac-4\">Contact us</label>\n					<article class=\"ac-large\">\n						<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>\n					</article>\n				</div>\n			</section>\n        </div>\n    </body>\n</html>",
 			"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index3.html",
-			"file_size": 4314,
-			"file_write_time": 129741846060000000,
 			"settings":
 			{
 				"buffer_size": 3237,
@@ -94,7 +99,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 7279,
+				"buffer_size": 7317,
 				"line_ending": "Unix"
 			}
 		},
@@ -162,6 +167,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"40",
 			"32",
 			"border",
 			"packed",
@@ -321,15 +327,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7279,
+						"buffer_size": 7317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2021,
-								2021
+								5296,
+								5296
 							]
 						],
 						"settings":
@@ -338,7 +344,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2150.0,
+						"translation.y": 5743.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
