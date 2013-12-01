@@ -31,7 +31,6 @@ h1 {
 .transHead {
 	height: 100px;
 	background: rgba(0, 0, 0, 0.6);
-	padding-top: 20px;
 }
 #topNav {
 	background-color: #2D2D2D;
@@ -290,8 +289,8 @@ h1 {
 	max-height: 80%;
 	position: relative;
 	top: 35%;
-	right: -10%;
-	width: 80%;
+	right: -20%;
+	width: 60%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 1.25em;
@@ -303,14 +302,14 @@ h1 {
 	top: 20%;
 }
 .titlePos2 {
-	height: 100%;
+	height: 15%;
 	width: 100%;
+	position: relative;
+	bottom: -60%;
 }
 .titlePos2 h2 {
 	font-size: 2em;
 	width: 100%;
-	position: relative;
-	bottom: -40%;
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -357,9 +356,22 @@ ul {
 #footer p a:link,#footer p a:visited {
 	color: rgba(0, 0, 0, 1.0);
 }
-/*
-@media (max-width: 1600px) {
-	#navLinks {
+
+@media (max-width: 960px) {
+	#top-half {
+		display: inline-block;
+	}
+	.blogText {
+		width: 50%;
+	}
+	.titlePos2 {
+		position: relative;
+		top: 0%;
+	}
+}
+
+
+/*	#navLinks {
 		padding: 0;
 		position: relative;
 		top: 45px;

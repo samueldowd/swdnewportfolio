@@ -4,56 +4,20 @@
 		"selected_items":
 		[
 			[
-				"padding",
-				"padding-bottom"
+				"backgrou",
+				"background-size"
+			],
+			[
+				"backg",
+				"background-repeat"
 			],
 			[
 				"max-",
-				"max-height"
-			],
-			[
-				"back",
-				"background-position"
+				"max-width"
 			],
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"margi",
-				"margin"
-			],
-			[
-				"background",
-				"background-color"
-			],
-			[
-				"border",
-				"border-style"
-			],
-			[
-				"inline",
-				"inline-block"
-			],
-			[
-				"lis",
-				"list-style-type"
-			],
-			[
-				"height",
-				"height"
-			],
-			[
-				"ass",
-				"ass-height"
-			],
-			[
-				"indent",
-				"indent-1-ac-width"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"font-s",
@@ -68,7 +32,7 @@
 			"settings":
 			{
 				"buffer_size": 4981,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -76,47 +40,15 @@
 			"settings":
 			{
 				"buffer_size": 8095,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index2.html",
-			"settings":
-			{
-				"buffer_size": 4301,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index3.html",
-			"settings":
-			{
-				"buffer_size": 3237,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 7317,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/accordions.css",
-			"settings":
-			{
-				"buffer_size": 1409,
+				"buffer_size": 7420,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/schools.css",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -147,9 +79,13 @@
 	},
 	"file_history":
 	[
-		"/Users/samuel_dowd/Box Sync/Downloads/tinyaccordion/index.html",
-		"/Users/samuel_dowd/Documents/GitHub/swdnewportfolio/js/code1.js",
-		"/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/css/accordions.css"
+		"/D/Home/My Documents/GitHub/Dad-Website/index.html",
+		"/D/Home/My Documents/GitHub/swdsite/sitemap.xml",
+		"/D/Home/My Documents/GitHub/swdnewportfolio/index.html",
+		"/D/Home/My Documents/GitHub/swdnewportfolio/pages/Shu.html",
+		"/D/Home/My Documents/GitHub/swdnewportfolio/css/styles.css",
+		"/D/Home/My Documents/GitHub/britowebsite/index.html",
+		"/D/Home/My Documents/GitHub/britowebsite/css/abarbershop.webflow.css"
 	],
 	"find":
 	{
@@ -167,17 +103,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"40",
-			"32",
-			"border",
-			"packed",
-			");",
-			"width",
-			"radio",
-			"height",
-			"checkbox",
-			"}\n",
-			"#banner",
 			"envelope",
 			"footer",
 			"img"
@@ -188,9 +113,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"checkbox",
-			"radio",
-			".banner"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -217,8 +139,8 @@
 						"selection":
 						[
 							[
-								3158,
-								3158
+								265,
+								257
 							]
 						],
 						"settings":
@@ -227,7 +149,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 442.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -245,8 +167,8 @@
 						"selection":
 						[
 							[
-								2296,
-								2296
+								1238,
+								1238
 							]
 						],
 						"settings":
@@ -254,60 +176,6 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1283.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 50.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/samuel_dowd/Box Sync/Downloads/CSS3Accordion/index3.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								802,
-								3217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -322,20 +190,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7317,
+						"buffer_size": 7420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5296,
-								5296
+								510,
+								510
 							]
 						],
 						"settings":
@@ -344,61 +212,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5743.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/accordions.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1409,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								891,
-								891
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/schools.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -447,7 +261,7 @@
 	"project": "swdnewportfolio.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
