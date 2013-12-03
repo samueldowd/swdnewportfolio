@@ -1,0 +1,99 @@
+<!doctype html>
+ 
+<html lang="en">
+<head>
+  	<meta charset="utf-8" />
+  	<title>Portfolio Header</title>
+  	<style>
+  	* {
+		margin: 0;
+		border: 0;
+		font-family: Raleway;
+	}
+	a:visited {
+		color: white;
+	}
+	a:link {
+		color: white;
+	}
+	h1 {
+		color: white;
+	}
+	.banner {
+		height: 544px;
+		width: 100%;
+	}
+	.transHead {
+		height: 100px;
+		background: rgba(0, 0, 0, 0.6);
+	}
+	#logo {
+		background: url(../img/swdlogo.jpg);
+		height: 100px;
+		width: 100px;
+		background-size: cover;
+		margin: 0 20px;
+		float: left;
+	}
+	#name {
+		float: left;
+		padding: 35px 0 35px 0;
+	}
+	#navLinks {
+		float: right;
+		padding: 30px 30px 0 0;
+		display: block;
+	}
+	#nav li {
+		float: left;
+		padding: 5px 15px;   
+		font-weight: bold;  
+		font-size: 1.25em;
+		color: #FFFFFF;
+		list-style: none;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		-webkit-transition: all 0.3s ease-in-out;   
+		-moz-transition: all 0.3s ease-in-out;   
+		-o-transition: all 0.3s ease-in-out;   
+		transition: all 0.3s ease-in-out;
+		margin: 0 20px 0 20px;
+	}
+	#nav li a {
+		text-decoration: none;
+		color: white;
+	}
+	#nav li:hover {
+		background: rgba(255, 255, 255, 0.35);
+	}
+  	</style>
+</head>
+<body>
+	<header class="banner">
+		<div class="transHead">
+			<a href="http://portfolio.samueldowd.com">
+				<img src="../img/swdlogo.jpg" class="logo" id="logo" alt="Samuel W. Dowd Logo" />
+			</a>
+			<a href="http://portfolio.samueldowd.com">
+				<div id="name">
+					<h1>Samuel W. Dowd</h1>
+				</div>			
+			</a>
+			<div class="mobileNav">
+				<div id="navLinks">
+					<ul id="nav">
+						<li>
+							<a href="http://portfolio.samueldowd.com#featured" class="nav"><b>Featured</b></a>
+						</li>
+						<li>
+							<a href="http://portfolio.samueldowd.com##schools" class="nav"><b>Schools</b></a>
+						</li>
+						<li>
+							<a href="http://portfolio.samueldowd.com##blogs" class="nav"><b>Blogs</b></a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>	
+	</header>
+</body>				

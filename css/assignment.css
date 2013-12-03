@@ -1,0 +1,82 @@
+@font-face { 
+	font-family: Raleway; 
+	src: url('fonts/Raleway-Regular.ttf'); 
+} 
+@font-face { 
+	font-family: Raleway-Bold; 
+	font-weight: bold; 
+	src: url('fonts/Raleway-Bold.ttf'); 
+} 
+@font-face { 
+	font-family: Merriweather; 
+	src: url('fonts/Vollkorn-Regular.ttf');
+}
+@font-face { 
+	font-family: Merriweather-Bold; 
+	font-weight: bold; 
+	src: url('fonts/Merriweather-Bold.ttf');
+}
+@font-face { 
+	font-family: Merriweather-Italic; 
+	font-weight: italic; 
+	src: url('fonts/Merriweather-Italic.ttf');
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+iframe {
+	border: 0;
+}
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid #666;
+}
+.classInfo {
+	border-bottom: 1px solid #666;
+}
+.classInfo h1, .classInfo h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+.classInfo h1 {
+	font-size: 1.5em;
+}
+.classInfo h2 {
+	font-size: 1.25em;
+}
+.assignment h1, .assignment h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+.assignment h1 {
+	font-size: 1.5em;
+	margin: 16px 0 0 0;
+}
+.assignment h2 {
+	font-size: 1.25em;
+	margin: 5px 0 0 0;
+	font-style: italic;
+}
+article p {
+	font-family: 'Vollkorn', serif;
+	color: #444;
+	text-indent: 50px;
+	line-height: 1.30;
+}
+.pHeader {
+	font-size: 1.2em;
+	font-family: 'Vollkorn', serif;
+}
+.pText {
+	font-size: 1.1em;
+}
+article div iframe {
+	padding-top: 5px;
+	position: relative;
+	right: -20%;
+}
+footer {
+	padding: 10px;
+}
