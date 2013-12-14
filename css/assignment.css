@@ -28,6 +28,12 @@ body {
 iframe {
 	border: 0;
 }
+body { font-size: 130%; }
+h1 { font-size: 4em; /* 16 x 4 = 64 */ }
+h2 { font-size: 2.5em; /* 16 x 2.5 = 40 */ }
+h3 { font-size: 1.5em; /* 16 x 1.5 = 24 */ }
+p { font-size: 1em; /* 16 x 1 = 16 */ }
+
 .container {
 	max-width: 700px;
 	margin: 0 auto;
@@ -36,41 +42,38 @@ iframe {
 .classInfo {
 	border-bottom: 1px solid #666;
 }
-.classInfo h1, .classInfo h2 {
+.classInfo h1, .classInfo h2, .classInfo h3 {
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
-}
-.classInfo h1 {
-	font-size: 1.5em;
-}
-.classInfo h2 {
-	font-size: 1.25em;
 }
 .assignment h1, .assignment h2 {
 	font-family: 'Raleway', sans-serif;
 	text-align: right;
 }
 .assignment h1 {
-	font-size: 1.5em;
 	margin: 16px 0 0 0;
 }
 .assignment h2 {
-	font-size: 1.25em;
 	margin: 5px 0 0 0;
 	font-style: italic;
 }
-article p {
+.assignDate {
+	text-transform: uppercase;
+	font-size: .75em;
+	font-family: 'Vollkorn', serif;
+}
+.pHeader {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #444;
+	line-height: 2.0;
+}
+.pText {
 	font-family: 'Vollkorn', serif;
 	color: #444;
 	text-indent: 50px;
-	line-height: 1.30;
-}
-.pHeader {
-	font-size: 1.2em;
-	font-family: 'Vollkorn', serif;
-}
-.pText {
-	font-size: 1.1em;
+	line-height: 1.40;
 }
 article div iframe {
 	padding-top: 5px;
